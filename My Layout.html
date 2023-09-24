@@ -1,0 +1,62 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>My Layout</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0px;
+            }
+
+            .navbar{
+                border: solid 1px;
+                text-align: center;
+                height: 80px;
+                margin: 6px;
+            }
+
+            .Container{
+                border: solid 1px;
+                margin: 6px;
+                display: grid;
+                grid-template-columns: 20% 60% 20%;
+                text-align: center;
+            }
+
+            .Left{
+                border: solid 2px;
+                margin: 6px;
+                height: 500px;
+                background-color: aqua;
+            }
+            .main{
+                border: solid 2px;
+                margin: 6px;
+                background-color: brown;
+            }
+            .right{
+                border: solid 2px;
+                margin: 6px;
+                background-color: blueviolet;
+            }
+            .footer{
+                border: solid 1px;
+                text-align: center;
+                height: 80px;
+                margin: 6px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="navbar">Navbar</div>
+
+        <div class="Container">
+            <div class="Left">Left Sidebar</div>
+            <div class="main">Main</div>
+            <div class="right">Right Sidebar</div>
+        </div>
+
+        <div class="footer">footer</div>
+    </body>
+</html>
